@@ -1,4 +1,4 @@
-package be.encelade.mytemplate
+package dev.encelade.mytemplate
 
 fun main() {
     println("hello")
