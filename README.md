@@ -22,3 +22,4 @@ Template (i.e. cookie cutter project) for my Kotlin / Gradle projects.
 
 ## Duplicate
 https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/duplicating-a-repository
+
