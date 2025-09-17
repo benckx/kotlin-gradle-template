@@ -1,7 +1,8 @@
 plugins {
     val kotlinVersion = "2.2.20"
-    id("com.github.ben-manes.versions") version "0.52.0"
     kotlin("jvm") version kotlinVersion
+    id("com.github.ben-manes.versions") version "0.52.0"
+    id("com.adarshr.test-logger") version "4.0.0"
 }
 
 repositories {
@@ -17,3 +18,7 @@ dependencies {
     testImplementation(kotlin("test"))
 }
 
+tasks.test {
+    useJUnitPlatform()
+    maxHeapSize = "1g"
+}
