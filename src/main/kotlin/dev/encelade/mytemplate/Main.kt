@@ -1,5 +1,9 @@
 package dev.encelade.mytemplate
 
+import io.github.oshai.kotlinlogging.KotlinLogging
+
+private val logger = KotlinLogging.logger {}
+
 fun main() {
-    println("hello")
+    logger.info { "hello world" }
 }
