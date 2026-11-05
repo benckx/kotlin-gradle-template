@@ -1,7 +1,7 @@
 plugins {
     val kotlinVersion = "2.2.20"
     kotlin("jvm") version kotlinVersion
-    id("com.github.ben-manes.versions") version "0.53.0"
+    id("io.github.ben-manes.versions") version "0.55.0"
     id("com.adarshr.test-logger") version "4.0.0"
 }
 
